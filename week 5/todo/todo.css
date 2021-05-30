@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(180, 199, 216);
+}
+
+.container {
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    padding: 5%;
+    border-radius: 8px;
+}
+
+input {
+    background-color: lightgray;
+    line-height: 25px;
+    border-radius: 3px;
+}
+
+h2 {
+    margin: 5px;
+}
+
+.addBtn {
+    border: black solid 1px;
+    border-radius: 3px;
+    width: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(89, 109, 126);
+   
+}
+
+.close {
+    border: black solid 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    width: 20px;
+    text-align: center;
+    font-size: large;
+    font-weight: 800;
+    background-color: rgb(89, 109, 126);
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    line-height: 25px;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+
+ 
+}
+li :hover {
+    background: darkgray ;
+}
+
+p {
+    display: none;
+    font-style: bold;
+    font-size: large;
+    color: rgb(201, 78, 22);
+}
+
+#inputContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+ul li.checked {
+    text-decoration: line-through;
+}
+
+.close:hover {
+    background: rgb(101, 148, 175);
+}
+
+#bottomRow {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    flex-wrap: wrap;
+}
+
+#count {
+    font-size: 15px;
+    color: rgb(140, 157, 160);
+    width: 25%;
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+}
+
+button {
+    width: 25%;
+    border-radius: 5px;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer {
+    padding: 3em;
+    text-align: center;
+    border-radius: 10px;
+
+}
