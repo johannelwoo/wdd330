@@ -15,7 +15,7 @@ searchBtn.addEventListener('click', () => {
     console.log('event click');
 
     toggleSearchField();
-    hidePopcorn();
+    hideGif();
 
     fetchAPIdata();
     
@@ -40,8 +40,8 @@ function toggleSearchField(){
 
 newSearchBtn.addEventListener('click', toggleSearchField);
 
-function hidePopcorn(){
-    if(popcorn.style.display === 'block'){
-        popcorn.style.display = 'none';
+function hideGif(){
+    if(gif.style.display === 'block'){
+        gif.style.display = 'none';
     }
 }
