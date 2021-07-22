@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body id="body">
+    <h1 class="title">Movie Worm</h1>
+    
+    <div class="cutDiv">
+        <img id="cut" src="./images/cut2.png" alt="" style="display: block;">
+    </div>
+
+    <div id="movieDataList"></div>
+    <div class="posterDiv">
+        <img id="poster"  alt="">
+    </div>
+
+    <!-- Move to middle of screen - should hide after search -->
+    <div class="searchField" >
+        <input id="title" name="title" type="text" placeholder="Enter the title of a movie!" style="display: block;" pattern="[a-zA-Z0-9]" required>
+        <button id="search" style="display: block;">Search</button>
+    </div>
+
+    <button id="newSearchBtn" style="display: none;">New Search</button>
+
+    <div id="basicInfoDiv"></div>
+    <div id="plotInfoDiv"></div>
+    <div id="ratingsInfoDiv"></div>
+    
+
+    <div class="gifDiv">
+        <img src="./images/camera-gif.gif" alt="" id="gif" style="display: block;">
+    </div>
+    
+    <div id="output"></div>
+
+    <footer>
+        <button class="pageNav" id="prevBtn" style="display: none;">Previous</button>
+        <button class="pageNav" id="nextBtn" style="display: none;">Next</button>
+    </footer>    
+    <script src="main.js" type="module"></script>
+</body>
+</html> 
