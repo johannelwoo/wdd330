@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Website Planning Document">
+<meta name="author" content="Johanna Schick">
+
+<title>Northern Utah Weather</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.png">
+
+     
+</head>
+
+<body>
+    <div id="alert">
+        <h3>"Saturday = Preston Pancakes in the Park!<br>
+        9:00 a.m. Saturday at the city park pavillion.</h3>
+    </div>
+<!-- HEADER HERE -->
+<header class="clearfix">
+    
+	<img src="images/weather-logo.png" alt="logo">
+    <h1>NUW</h1>
+    <h2>Cloudy with a chance of accuracy</h2>
+</header>
+    
+
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="mainNav" class="hide">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="richmond.html">Richmond</a></li>
+            <li><a href="smithfield.html">Smithfield</a></li>
+            <li><a href="hydepark.html">Hyde Park</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>     
+        </ul>
+    </nav>
+    
+    
+<!-- CONTENT HERE -->
+    <main class="clearfix">
+<div class="hero-content">
+
+        <img class="hero" src="images/banner.jpg" alt="heroImage">
+        <div id="cards"></div>
+
+        <article class="articleSplit">
+            <h2 class="aTitle">News of the Day</h2>
+            <img class="aImage" src="https://picsum.photos/300/169" alt="article image">
+            <p class="articleP">
+                <h2>Severe Weather Outlook</h2>
+                There are currently no severe weather alerts.
+                <br>
+
+                <h2> Drought = Fire hazard </h2>
+                Remember as the 24th of July now approaches that we have been asked to not do any fireworks this year to decrease the chances of accidentally starting a fire. It has been a really dry year and county and state officials are worried about doing fire works during this terrible drought.
+
+                <h2>Time to conserve!</h2>
+                The governor of Utah has extended our state of emergency for a drought. Do whatever you can to help conserve water. One thing you can do is to try to water your lawn in the morning or at night. Also limit your waterings to one or twice a week if you are not under restrictions.
+            </p>
+        </article>
+        </div>
+    </main>
+    
+<!-- FOOTER HERE -->   
+<footer>
+    &copy; Johanna Schick <div class="lastUpdate"><span id="currentdate"></span></div>
+</footer>
+<script src="js/script.js"></script>
+<script src="js/windchill.js"></script>
+<script src="js/cards.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</body>
+</html>
