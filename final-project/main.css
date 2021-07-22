@@ -13,6 +13,10 @@ h1{
 }
 
 
+#worm {
+    width: 200px;
+}
+
 .cutdiv{
     display: flex;
 }
@@ -65,7 +69,14 @@ input{
     padding: 10px;
 }
 
+.posterDiv{
+    text-align: center;
+}
 
+#poster{
+    width: 100%;
+    position: relative;
+}
 
 .infoDiv{
     padding: 10px;
